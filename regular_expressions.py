@@ -102,7 +102,7 @@ if wynik:
 else:
     print("Nie dopasowano")
 
-if re.match("^([A-Za-z0-9]+|[A-Za-z0-9][A-Za-z0-9\.-]+[A-Za-z0-9])@([A-Za-z0-9]+|[A-Za-z0-9-\.]+[A-Za-z0-9])\.[A-Za-z0-9]+$", "b.a@p.pl"):
+if re.match(r"^([A-Za-z0-9]+|[A-Za-z0-9][A-Za-z0-9.-]+[A-Za-z0-9])@([A-Za-z0-9]+|[A-Za-z0-9.-]+[A-Za-z0-9])\.[A-Za-z0-9]+$", "olusiaop05@gmail.com"):
     print("Dopasowano!")
 else:
     print("Nie dopasowano")
